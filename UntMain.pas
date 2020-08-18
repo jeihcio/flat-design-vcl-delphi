@@ -18,6 +18,9 @@ type
     Edit1: TEdit;
     Memo1: TMemo;
     Edit2: TEdit;
+    Panel2: TPanel;
+    Image1: TImage;
+    ImgCancelar: TImage;
     procedure Panel1MouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);
     procedure ImgMinimizarMouseMove(Sender: TObject; Shift: TShiftState; X,
@@ -25,6 +28,7 @@ type
     procedure ImgMinimizarMouseLeave(Sender: TObject);
     procedure ImgMinimizarClick(Sender: TObject);
     procedure ImgFecharClick(Sender: TObject);
+    procedure ImgCancelarClick(Sender: TObject);
   private
   public
   end;
@@ -36,6 +40,13 @@ implementation
 
 {$R *.dfm}
 
+procedure TForm1.ImgCancelarClick(Sender: TObject);
+begin
+   Edit1.Clear;
+   Edit2.Clear;
+   Memo1.Lines.Clear;
+end;
+
 procedure TForm1.ImgFecharClick(Sender: TObject);
 begin
    Close();
@@ -43,7 +54,7 @@ end;
 
 procedure TForm1.ImgMinimizarClick(Sender: TObject);
 begin
-   Application.Minimize;
+  Application.Minimize;
 end;
 
 procedure TForm1.ImgMinimizarMouseLeave(Sender: TObject);

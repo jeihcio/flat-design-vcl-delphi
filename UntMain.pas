@@ -15,6 +15,9 @@ type
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
+    Edit1: TEdit;
+    Memo1: TMemo;
+    Edit2: TEdit;
     procedure Panel1MouseDown(Sender: TObject; Button: TMouseButton;
       Shift: TShiftState; X, Y: Integer);
     procedure ImgMinimizarMouseMove(Sender: TObject; Shift: TShiftState; X,

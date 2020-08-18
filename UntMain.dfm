@@ -3,8 +3,8 @@ object Form1: TForm1
   Top = 0
   BorderStyle = bsNone
   Caption = 'Flat design'
-  ClientHeight = 483
-  ClientWidth = 498
+  ClientHeight = 426
+  ClientWidth = 425
   Color = 5258796
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,8 +16,8 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 54
-    Top = 56
+    Left = 8
+    Top = 46
     Width = 49
     Height = 23
     Caption = 'Nome:'
@@ -29,8 +29,8 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 55
-    Top = 85
+    Left = 8
+    Top = 111
     Width = 48
     Height = 23
     Caption = 'E-mail:'
@@ -42,8 +42,8 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 19
-    Top = 114
+    Left = 8
+    Top = 176
     Width = 84
     Height = 23
     Caption = 'Mensagem:'
@@ -57,7 +57,7 @@ object Form1: TForm1
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 498
+    Width = 425
     Height = 40
     Align = alTop
     BevelOuter = bvNone
@@ -68,7 +68,7 @@ object Form1: TForm1
     ExplicitWidth = 668
     object ImgFechar: TImage
       AlignWithMargins = True
-      Left = 460
+      Left = 387
       Top = 3
       Width = 35
       Height = 34
@@ -122,7 +122,7 @@ object Form1: TForm1
     end
     object ImgMinimizar: TImage
       AlignWithMargins = True
-      Left = 422
+      Left = 349
       Top = 3
       Width = 35
       Height = 34
@@ -170,5 +170,54 @@ object Form1: TForm1
       OnMouseMove = ImgMinimizarMouseMove
       ExplicitLeft = 704
     end
+  end
+  object Edit1: TEdit
+    Left = 8
+    Top = 75
+    Width = 409
+    Height = 30
+    AutoSize = False
+    BorderStyle = bsNone
+    Ctl3D = True
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Segoe UI Light'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 8
+    Top = 205
+    Width = 409
+    Height = 212
+    BorderStyle = bsNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Segoe UI Light'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 3
+  end
+  object Edit2: TEdit
+    Left = 8
+    Top = 140
+    Width = 409
+    Height = 30
+    AutoSize = False
+    BorderStyle = bsNone
+    Ctl3D = True
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Segoe UI Light'
+    Font.Style = []
+    ParentCtl3D = False
+    ParentFont = False
+    TabOrder = 2
   end
 end

@@ -25,6 +25,7 @@ object Form1: TForm1
     Color = 3549725
     ParentBackground = False
     TabOrder = 0
+    OnMouseDown = Panel1MouseDown
     object ImgFechar: TImage
       AlignWithMargins = True
       Left = 630

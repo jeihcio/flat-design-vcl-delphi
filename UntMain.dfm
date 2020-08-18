@@ -3,8 +3,8 @@ object Form1: TForm1
   Top = 0
   BorderStyle = bsNone
   Caption = 'Flat design'
-  ClientHeight = 382
-  ClientWidth = 524
+  ClientHeight = 469
+  ClientWidth = 437
   Color = 5258796
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,8 +16,8 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 51
-    Top = 54
+    Left = 15
+    Top = 46
     Width = 49
     Height = 23
     Caption = 'Nome:'
@@ -29,8 +29,8 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 52
-    Top = 90
+    Left = 16
+    Top = 111
     Width = 48
     Height = 23
     Caption = 'E-mail:'
@@ -43,7 +43,7 @@ object Form1: TForm1
   end
   object Label3: TLabel
     Left = 16
-    Top = 126
+    Top = 176
     Width = 84
     Height = 23
     Caption = 'Mensagem:'
@@ -57,7 +57,7 @@ object Form1: TForm1
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 524
+    Width = 437
     Height = 40
     Align = alTop
     BevelOuter = bvNone
@@ -68,7 +68,7 @@ object Form1: TForm1
     ExplicitWidth = 668
     object ImgFechar: TImage
       AlignWithMargins = True
-      Left = 486
+      Left = 399
       Top = 3
       Width = 35
       Height = 34
@@ -122,7 +122,7 @@ object Form1: TForm1
     end
     object ImgMinimizar: TImage
       AlignWithMargins = True
-      Left = 448
+      Left = 361
       Top = 3
       Width = 35
       Height = 34
@@ -172,8 +172,8 @@ object Form1: TForm1
     end
   end
   object Edit1: TEdit
-    Left = 105
-    Top = 51
+    Left = 15
+    Top = 75
     Width = 409
     Height = 30
     AutoSize = False
@@ -189,8 +189,8 @@ object Form1: TForm1
     TabOrder = 1
   end
   object Memo1: TMemo
-    Left = 105
-    Top = 123
+    Left = 16
+    Top = 205
     Width = 409
     Height = 212
     BorderStyle = bsNone
@@ -204,8 +204,8 @@ object Form1: TForm1
     TabOrder = 3
   end
   object Edit2: TEdit
-    Left = 106
-    Top = 87
+    Left = 16
+    Top = 140
     Width = 409
     Height = 30
     AutoSize = False
@@ -222,8 +222,8 @@ object Form1: TForm1
   end
   object Panel2: TPanel
     Left = 0
-    Top = 342
-    Width = 524
+    Top = 429
+    Width = 437
     Height = 40
     Align = alBottom
     BevelOuter = bvNone
@@ -231,9 +231,10 @@ object Form1: TForm1
     ParentBackground = False
     TabOrder = 4
     ExplicitTop = 8
+    ExplicitWidth = 524
     object Image1: TImage
       AlignWithMargins = True
-      Left = 486
+      Left = 399
       Top = 3
       Width = 35
       Height = 34
@@ -289,7 +290,7 @@ object Form1: TForm1
     end
     object ImgCancelar: TImage
       AlignWithMargins = True
-      Left = 449
+      Left = 362
       Top = 3
       Width = 35
       Height = 34

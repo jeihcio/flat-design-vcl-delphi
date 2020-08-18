@@ -3,8 +3,8 @@ object Form1: TForm1
   Top = 0
   BorderStyle = bsNone
   Caption = 'Flat design'
-  ClientHeight = 446
-  ClientWidth = 668
+  ClientHeight = 483
+  ClientWidth = 498
   Color = 5258796
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,10 +15,49 @@ object Form1: TForm1
   Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 54
+    Top = 56
+    Width = 49
+    Height = 23
+    Caption = 'Nome:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Segoe UI Light'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 55
+    Top = 85
+    Width = 48
+    Height = 23
+    Caption = 'E-mail:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Segoe UI Light'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 19
+    Top = 114
+    Width = 84
+    Height = 23
+    Caption = 'Mensagem:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Segoe UI Light'
+    Font.Style = []
+    ParentFont = False
+  end
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 668
+    Width = 498
     Height = 40
     Align = alTop
     BevelOuter = bvNone
@@ -26,9 +65,10 @@ object Form1: TForm1
     ParentBackground = False
     TabOrder = 0
     OnMouseDown = Panel1MouseDown
+    ExplicitWidth = 668
     object ImgFechar: TImage
       AlignWithMargins = True
-      Left = 630
+      Left = 460
       Top = 3
       Width = 35
       Height = 34
@@ -75,11 +115,14 @@ object Form1: TForm1
         D77E56193033F30F94AE5FEFB8DB34CF0000000049454E44AE426082}
       ShowHint = True
       Stretch = True
+      OnClick = ImgFecharClick
+      OnMouseLeave = ImgMinimizarMouseLeave
+      OnMouseMove = ImgMinimizarMouseMove
       ExplicitLeft = 633
     end
     object ImgMinimizar: TImage
       AlignWithMargins = True
-      Left = 592
+      Left = 422
       Top = 3
       Width = 35
       Height = 34
@@ -122,6 +165,9 @@ object Form1: TForm1
         000049454E44AE426082}
       ShowHint = True
       Stretch = True
+      OnClick = ImgMinimizarClick
+      OnMouseLeave = ImgMinimizarMouseLeave
+      OnMouseMove = ImgMinimizarMouseMove
       ExplicitLeft = 704
     end
   end
